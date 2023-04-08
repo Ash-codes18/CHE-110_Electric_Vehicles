@@ -2,12 +2,22 @@ function scrollToTop() {
     window.scrollTo(0, 0);
   }
 
-  function scrollDown() {
-    var currentPosition = window.pageYOffset;
-    var targetPosition = currentPosition + 600; // Change 100 to the amount you want to scroll down
-  
-    window.scrollTo({
-      top: targetPosition,
-      behavior: 'smooth'
-    });
-  }
+  function scrollb() {
+    const section = document.getElementById("blog");
+    section.scrollIntoView({behavior: "smooth"});
+}
+
+  function scrollmp() {
+    const section = document.getElementById("section1");
+    section.scrollIntoView({behavior: "smooth"});
+}
+
+function scrollToSection(id) {
+    const section = document.getElementById(id);
+    section.scrollIntoView({behavior: "smooth"});
+}
+
+function scrollvm() {
+    const section = document.getElementById("section3");
+    section.scrollIntoView({behavior: "smooth"});
+}
