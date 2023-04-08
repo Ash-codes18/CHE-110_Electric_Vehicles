@@ -1,0 +1,17 @@
+html {
+  scroll-behavior: smooth;
+  scroll-duration: 3s;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  /* additional styles */
+}
+
+.ev {
+  width: 75%;
+}
