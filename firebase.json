@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "ashev",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
