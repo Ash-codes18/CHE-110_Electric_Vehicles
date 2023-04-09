@@ -11,6 +11,12 @@ header {
   z-index: 100;
   /* additional styles */
 }
+header {
+  opacity: 1;
+}
+header.transparent {
+  border-bottom: 1px solid whitesmoke;
+}
 
 .ev {
   width: 75%;
