@@ -22,6 +22,11 @@ function scrollvm() {
     section.scrollIntoView({behavior: "smooth"});
 }
 
+function scrollt() {
+  const section = document.getElementById("section4");
+  section.scrollIntoView({behavior: "smooth"});
+}
+
 window.onscroll = function() {
   var header = document.querySelector('header');
   var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
