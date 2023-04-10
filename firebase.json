@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "ashev",
+    "site":"ashev",
     "public": "public",
     "ignore": [
       "firebase.json",
