@@ -45,7 +45,6 @@ and their maintenance.
 <img src="assets\d7.png">
 <img src="assets\d8.png">
 <img src="assets\d9.png">
-<img src="assets\d10.png">
 
 <br>
 <br>
